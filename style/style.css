@@ -119,6 +119,27 @@ main {
   margin-bottom: 8px;
 }
 
+.doc-box a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: color 0.25s ease, border-color 0.25s ease;
+}
+
+.doc-box a:hover {
+    color: white;
+    border-bottom-color: #ffd700;
+}
+
+.doc-box a:visited {
+    color: #ffe866;
+}
+
+.doc-box a:active {
+    color: #ffb700;
+}
+
 code {
   background-color: #ffffff22;
   color: #ffd700;
